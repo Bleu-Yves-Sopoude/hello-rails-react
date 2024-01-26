@@ -1,0 +1,7 @@
+<%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+<div id="root"> 
+<%= @random_message ? @random_message.greeting : 'No greetings available.' %>
+
+
+</div>
+<%= javascript_include_tag "turbo", type: "module" %>
