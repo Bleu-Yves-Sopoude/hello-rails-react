@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Hello-Rails-React
 
 <a name="readme-top"></a>
@@ -133,7 +132,3 @@ I want to thank  Microverse
 This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-=======
-# hello-rails-react
-This is a rails-react App
->>>>>>> dev

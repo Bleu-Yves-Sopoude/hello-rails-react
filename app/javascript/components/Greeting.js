@@ -7,7 +7,7 @@ const Greeting =() =>
 {
 
     const dispatch=useDispatch();
-    const greeting= useSelector((state)=> Greeting.messages);
+    const greeting= useSelector((state)=> state.greeting.message);
 
     useEffect(() => {
         if (!greeting) {
@@ -23,9 +23,8 @@ const Greeting =() =>
 
 
     return (
-      <div>
-            <h1>Before All</h1>
-            <p>{greeting}</p>
+      <div> 
+            <h1>{greeting}</h1>
         </div>
     
     )
